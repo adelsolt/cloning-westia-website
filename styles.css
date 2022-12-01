@@ -28,8 +28,9 @@ header {
 	text-align: center;
 }
 .logo-img{
-	height: 30px;
+	height: 100px;
 
+.	
 }
 .navigation-container{
 
@@ -47,14 +48,22 @@ text-align: center;
 }
 .sign-up{
 	color: #3ea9f5;
+	background-color: ; 
+	border: none;
+	color: rgb(42, 51, 71);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
  .log-sign {
 	height: 100%;
 	width:100%;
 	
 	cursor: pointer;
-	border:none;
-	background-color:white; 
+	border-radius: 20px;
+	background-color: white; 
 	border-right: 1px solid #eaeae6;
 	border-left: 1px solid #eaeae6;
 	font-weight: bold;
@@ -64,6 +73,7 @@ text-align: center;
 .log-in{
 border-left: none;
 color: grey;
+background-color: blue;
 }
 .log-sign:hover{
 	background-color: #eaeae6;
@@ -80,6 +90,12 @@ color: grey;
 .nav-principal{
 	font-weight: bold;
 }
+.background-img1{
+	position: absolute;
+	background-size: 100% 100%;
+	z-index: 1;
+}
+
 .video-container{
 	width: 100%;
 	height: 720;
@@ -90,12 +106,15 @@ color: grey;
 
 }
 .img-video{
-	
+	position: absolute;
 	margin:  25px 80px;
 	width: 660px;
 	height: 450px;
+	float:right;margin-left:20px
+	z-index: 4;
 }
 .video-link{
+	position: absolute;
 	width: 200px;
 	height: 60px;
 	border-radius: 5px;
@@ -106,33 +125,11 @@ color: grey;
 	color: grey;
 	font-weight: normal;
 	font-size: 20px;
+	z-index: 2;
+	top: 140%;
+	left: 70%;
+}
 
-
-}
-.video-link:hover{
-	border-bottom: 5px solid #808080cf;
-	box-shadow:  20px;
-	height: 70px;
-}
-.video-title{
-	
-font-weight: normal;
-font-size: 35px;
-color: #363945;
-
-}
-span{
-color: white;
-}
-.video-content{
-	flex-basis: 550px;
-	padding-left: 100px;
-	padding-top: 100px;
-
-}
-.video-source{
-    background-color: #3ea9f5;
-}
 .westia-options{
 	display: flex;
 }
